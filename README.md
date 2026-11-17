@@ -1,5 +1,7 @@
 # Antigravity Context Helper
 
+简体中文 | [English](README.en.md)
+
 一个适用于 macOS 的 Antigravity 客户端上下文阈值助手。它在用户登录后运行，等待 Antigravity 打开，并通过应用的本机 DevTools 接口向窗口注入配置补丁。它不修改 Antigravity 的应用包。
 
 > **重要：这只调整客户端的上下文检查阈值，不会改变模型或服务端的真实上下文上限。尚未验证超过 256K tokens 的真实请求是否被服务端接受。** 本项目是非官方工具，可能在应用升级后失效，也可能对应用稳定性产生影响。
